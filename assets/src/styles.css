@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    color: #fff;
+}
+
+body {
+    background: linear-gradient(30deg, #BE01F0, #000);
+}
+
+/* Cabeçalho; */
+#cabeçalho {
+    font-style: italic;
+    padding: 20px;
+    color: #fff;
+}
+
+#navbar {
+    display: flex;
+}
+
+#list-navbar {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 20px;
+}
+
+li:hover {
+    border-bottom: 1px solid #fff;
+    font-style: normal;
+    transition: all .3s ease;
+    animation: lineBorder;
+}
+
+@keyframes lineBorder {
+    0% {left: 0;}
+    50% {left: 50%;}
+    100% {left: 100%;}
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Responsive Header; */
+@media (max-width: 650px) {
+    #list-navbar {
+        display: none;
+    }
+}
+
+/* Body Page; */
+
+img {
+    object-fit: cover;
+    object-position: center center;
+}
+
+/* Footer Page; */
+
+footer > div p a {
+    text-decoration: underline;
+    color: #fff;
+    font-style: italic;
+}
+
+.div-one  {
+    border-right: 1px solid;
+}
