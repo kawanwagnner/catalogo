@@ -10,7 +10,7 @@
 }
 
 body {
-    background: linear-gradient(130deg, #f001e4, #140313);
+    background: linear-gradient(130deg, #f001e4, #f39200);
 }
 
 /* Cabeçalho; */
@@ -66,7 +66,7 @@ li a {
 }
 
 li:hover a {
-    color: #140313;
+    color: #ffa319;
 }
 
 #menu-hamb {
@@ -204,7 +204,7 @@ img {
 /* Footer Page; */
 
 footer {
-    background-color: #270325;
+    background-color: #000;
 }
 
 footer>div p a {
