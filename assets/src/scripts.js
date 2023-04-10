@@ -44,10 +44,6 @@ sr.reveal("#bares", {
     duration: 2000,
 });
 
-sr.reveal(".card", { rotate: { x: 5, y: 20, z: 0 }, duration: 1000 });
-
-sr.reveal("#produtos", { duration: 2000 });
-
 /* Pop-Up; */
 
 // const btnBuy = document.querySelectorAll(".btn-buy");
