@@ -6,11 +6,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans';
-    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    background: linear-gradient(130deg, #f001e4, #f39200);
+    background: linear-gradient(to left, #ff00f2, #f39200);
 }
 
 /* Cabeçalho; */
@@ -174,37 +177,29 @@ img {
     object-position: center center;
 }
 
-.pop-up {
-    background-color: #0000008a;
-    position: relative;
-    display: none;
-    
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-
-    width: 100%;
-    width: 100vh;
+#produtos {
+    background-color: #fff;
+    height: 100%;
 }
 
-.pop-up img {
-    width: 30vw;
-    border-radius: 20px;
-    height: auto;
+#bares {
+    margin-top: 100px;
+}
 
-    position: absolute;
-    top: 5%;
-    left: 50%;
+#banner-content {
+    color: #000;
+}
 
-    transform: translateX(-50%);
+.title-menu {
+    padding: 80px;
+    text-decoration: underline;
 }
 
 /* Footer Page; */
 
 footer {
     background-color: #000;
+    position: relative;
 }
 
 footer>div p a {
@@ -217,8 +212,14 @@ footer>div p a {
     border-right: 1px solid;
 }
 
+.div-two a {
+    text-decoration: none;
+}
+
 @media (max-width: 500px) {
-    cnt-container {
-        flex-direction: column;
+    h6 {
+        position: absolute;
+        bottom: 0;
+        left: -127%;
     }
 }
