@@ -28,7 +28,7 @@ btn.addEventListener("click", () => {
 
 /* Scroll Reveal; */
 
-window.sr = ScrollReveal({ reset: true });
+window.sr = ScrollReveal({ reset: false });
 
 sr.reveal("#tile-menu", {
   rotate: { x: 5, y: 20, z: 0 },
